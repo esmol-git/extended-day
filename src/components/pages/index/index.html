@@ -1,0 +1,489 @@
+<script type="module" src="@components/pages/index/index.js"></script>
+<link rel="stylesheet" href="@components/pages/index/index.scss">
+
+<main class="page page--index">
+	<!-- Hero Section -->
+	<section id="hero" class="hero" data-fls-watcher="navigator" data-fls-watcher-margin="0px">
+		<div class="hero__background">
+			<img src="@img/hero-bg.jpg" alt="Детская комната для группы продленного дня" class="hero__bg-img" loading="eager">
+		</div>
+		<div class="hero__container">
+			<div class="hero__wrapper">
+				<div class="hero__content">
+					<h1 class="hero__title" data-fls-splittype data-fls-gsap>Группа продленного дня он-лайн от Петровой Марии Сергеевны</h1>
+					<p class="hero__description" data-fls-watcher data-fls-watcher-once>Онлайн группа для дневного пребывания после уроков для учеников 1-4 классов</p>
+					<div class="hero__actions" data-fls-watcher data-fls-watcher-once>
+						<a href="#contacts" class="hero__button" data-fls-scrollto="#contacts" aria-label="Записать ребенка">Записать ребенка</a>
+					</div>
+				</div>
+				<div class="hero__features" data-fls-watcher data-fls-watcher-once>
+					<div class="hero__feature-card">
+						<div class="hero__feature-icon">👩‍🏫</div>
+						<p class="hero__feature-text">Опытные воспитатели</p>
+					</div>
+					<div class="hero__feature-card">
+						<div class="hero__feature-icon">💰</div>
+						<p class="hero__feature-text">Доступная стоимость</p>
+					</div>
+					<div class="hero__feature-card">
+						<div class="hero__feature-icon">📅</div>
+						<p class="hero__feature-text">Расписание и дисциплина</p>
+					</div>
+					<div class="hero__feature-card">
+						<div class="hero__feature-icon">🥗</div>
+						<p class="hero__feature-text">Здоровое питание</p>
+					</div>
+					<div class="hero__feature-card">
+						<div class="hero__feature-icon">🛡️</div>
+						<p class="hero__feature-text">Обеспечение безопасности</p>
+					</div>
+					<div class="hero__feature-card">
+						<div class="hero__feature-icon">🎨</div>
+						<p class="hero__feature-text">Интересный досуг</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- About Section -->
+	<section id="about" class="about" data-fls-watcher="navigator" data-fls-watcher-margin="0px">
+		<div class="about__container">
+			<div class="about__content">
+				<div class="about__image" data-fls-watcher data-fls-watcher-once>
+					<img src="@img/about.avif" alt="Воспитатель с детьми в группе продленного дня" class="about__img" loading="lazy" width="520" height="600">
+				</div>
+
+				<div class="about__text">
+					<h2 class="about__title" data-fls-splittype data-fls-gsap>О группе продленного дня</h2>
+
+					<p class="about__lead">Онлайн группа продленного дня (ГПД) для учеников 1-4 классов — это важная часть образовательного процесса, которая обеспечивает присмотр и всестороннее развитие детей после основных уроков в онлайн формате.</p>
+
+					<p class="about__label">Типичные ежедневные активности в онлайн формате:</p>
+					<ul class="about__list">
+						<li>
+							<strong>Самоподготовка:</strong> Ученики выполняют домашние задания под присмотром воспитателей в онлайн режиме.
+						</li>
+						<li>
+							<strong>Внеурочная деятельность:</strong> Разнообразные онлайн занятия по интересам, помогающие детям развивать навыки в различных областях.
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Features Grid Section -->
+	<section class="features-grid" data-fls-watcher="navigator" data-fls-watcher-margin="0px">
+		<div class="features-grid__container">
+			<div class="features-grid__wrapper">
+				<!-- Row 1-2: Верхний блок - картинка на 2 строки, 4 колонки (вся ширина) -->
+				<div class="features-grid__item features-grid__item--image features-grid__item--top-wide">
+					<img src="@img/feature-1.jpg" alt="Современная библиотека" class="features-grid__img" loading="lazy">
+					<div class="features-grid__inner-grid">
+						<div class="features-grid__overlay features-grid__overlay--left">
+							<div class="features-grid__text-block features-grid__text-block--green">
+								<h3 class="features-grid__text-title">Современное оборудование</h3>
+							</div>
+							<div class="features-grid__text-block features-grid__text-block--red">
+								<p class="features-grid__text-subtitle">Профессиональные воспитатели с многолетним опытом</p>
+							</div>
+						</div>
+						<div class="features-grid__icon-card">
+							<div class="features-grid__icon">💡</div>
+							<p class="features-grid__icon-text">Личностный рост детей</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Row 3: Middle section - все в одну строку -->
+				<!-- Middle Left: 3 колонки текст вертикально -->
+				<div class="features-grid__item features-grid__item--text features-grid__item--text-three">
+					<div class="features-grid__text-block features-grid__text-block--green">
+						<h3 class="features-grid__text-title">Эмоциональная поддержка</h3>
+					</div>
+					<div class="features-grid__text-block features-grid__text-block--red">
+						<p class="features-grid__text-subtitle">Хорошие психологи, логопеды, дефектологи</p>
+					</div>
+				</div>
+				<!-- Middle Center: 1 колонка большой зеленый квадрат -->
+				<div class="features-grid__item features-grid__item--icon">
+					<div class="features-grid__icon-card">
+						<div class="features-grid__icon">✓</div>
+						<p class="features-grid__icon-text">Для детей с особыми потребностями или трудностями в общении</p>
+					</div>
+				</div>
+				<!-- Middle Right: 1 колонка - картинка -->
+				<div class="features-grid__item features-grid__item--image">
+					<img src="@img/feature-2.jpg" alt="Ребенок с камерой" class="features-grid__img" loading="lazy">
+				</div>
+
+				<!-- Row 4-5: Bottom section -->
+				<!-- Bottom Left: 2 колонки, 2 строки - большое изображение -->
+				<div class="features-grid__item features-grid__item--image features-grid__item--image-tall">
+					<img src="@img/feature-4.jpg" alt="Современная игровая комната" class="features-grid__img" loading="lazy">
+				</div>
+				<!-- Bottom Right Top: 2 колонки, 1 строка - текстовые блоки -->
+				<div class="features-grid__item features-grid__item--text features-grid__item--text-two">
+					<div class="features-grid__text-block features-grid__text-block--green">
+						<h3 class="features-grid__text-title">Разнообразие онлайн занятий</h3>
+					</div>
+					<div class="features-grid__text-block features-grid__text-block--red">
+						<p class="features-grid__text-subtitle">Различные онлайн кружки и дополнительные занятия</p>
+					</div>
+				</div>
+				<!-- Bottom Right Bottom Left: 1 колонка, 1 строка - зеленый квадрат -->
+				<div class="features-grid__item features-grid__item--icon">
+					<div class="features-grid__icon-card">
+						<div class="features-grid__icon">💬</div>
+						<p class="features-grid__icon-text">Социальные навыки и дружеское общение</p>
+					</div>
+				</div>
+				<!-- Bottom Right Bottom Right: 1 колонка, 1 строка - изображение -->
+				<div class="features-grid__item features-grid__item--image">
+					<img src="@img/feature-3.avif" alt="Дети играют в перетягивание каната" class="features-grid__img" loading="lazy">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Services Section -->
+	<section id="services" class="services" data-fls-watcher="navigator" data-fls-watcher-margin="0px">
+		<div class="services__container">
+			<h2 class="services__title" data-fls-splittype data-fls-gsap>Набор услуг в онлайн группе продленного дня</h2>
+			<p class="services__subtitle" data-fls-watcher data-fls-watcher-once>Услуги, которые мы предоставляем</p>
+			<div class="services__grid">
+				<div class="services__card" data-fls-watcher data-fls-watcher-once>
+					<div class="services__image">
+						<img src="@img/service-2.webp" alt="Присмотр и уход за детьми" loading="lazy" width="400" height="400">
+					</div>
+					<div class="services__body">
+						<h3 class="services__card-title">Присмотр и уход за детьми</h3>
+						<p class="services__text">Обеспечение безопасности и комфорта детей в течение времени в группе</p>
+					</div>
+				</div>
+				<div class="services__card" data-fls-watcher data-fls-watcher-once>
+					<div class="services__image">
+						<img src="@img/service-1.webp" alt="Организация досуга" loading="lazy" width="400" height="400">
+					</div>
+					<div class="services__body">
+						<h3 class="services__card-title">Организация досуга</h3>
+						<p class="services__text">Проведение различных онлайн мероприятий, интерактивные игры, творческие онлайн занятия</p>
+					</div>
+				</div>
+				<div class="services__card" data-fls-watcher data-fls-watcher-once>
+					<div class="services__image">
+						<img src="@img/service-3.jpg" alt="Подготовка к урокам" loading="lazy" width="400" height="400">
+					</div>
+					<div class="services__body">
+						<h3 class="services__card-title">Подготовка к урокам</h3>
+						<p class="services__text">Помощь детям в выполнении домашних заданий и самоподготовке</p>
+					</div>
+				</div>
+				<div class="services__card" data-fls-watcher data-fls-watcher-once>
+					<div class="services__image">
+						<img src="@img/service-4.avif" alt="Социальная адаптация" loading="lazy" width="400" height="400">
+					</div>
+					<div class="services__body">
+						<h3 class="services__card-title">Социальная адаптация</h3>
+						<p class="services__text">Формирование у детей навыков общения и взаимодействия с другими</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Consultation Section -->
+	<section class="consultation" data-fls-watcher="navigator" data-fls-watcher-margin="0px">
+		<div class="consultation__container">
+			<div class="consultation__content">
+				<div class="consultation__text">
+					<h2 class="consultation__title" data-fls-splittype data-fls-gsap>Получите консультацию сейчас</h2>
+					<p class="consultation__subtitle" data-fls-watcher data-fls-watcher-once>Оставьте заявку и менеджер свяжется с вами</p>
+					<p class="consultation__description" data-fls-watcher data-fls-watcher-once>Менеджер онлайн группы продленного дня обсудит с вами ключевые аспекты организации и функционирования онлайн группы, которая предназначена для досуга и присмотра за детьми после уроков в дистанционном формате.</p>
+				</div>
+				<div class="consultation__form-wrapper" data-fls-watcher data-fls-watcher-once>
+					<form class="consultation__form" data-fls-form="dev" data-fls-form-cta="true" aria-label="Форма консультации">
+						<div class="consultation__form-item">
+							<label class="consultation__label" for="consultation-name">Имя</label>
+							<input
+								class="consultation__input"
+								type="text"
+								id="consultation-name"
+								name="consultation-name"
+								placeholder="Имя"
+								required
+								autocomplete="name"
+								aria-required="true"
+								data-fls-input
+								data-fls-form-validatenow
+								data-fls-form-errtext="Введите ваше имя">
+						</div>
+						<div class="consultation__form-item">
+							<label class="consultation__label" for="consultation-phone">Телефон</label>
+							<input
+								class="consultation__input"
+								type="tel"
+								id="consultation-phone"
+								name="consultation-phone"
+								placeholder="Телефон"
+								required
+								autocomplete="tel"
+								aria-required="true"
+								data-fls-input
+								data-fls-input-mask="+7 (999) 999-99-99"
+								data-fls-form-validatenow
+								data-fls-form-errtext="Введите номер телефона">
+						</div>
+						<div class="consultation__form-item">
+							<label class="consultation__label" for="consultation-email">E-mail</label>
+							<input
+								class="consultation__input"
+								type="email"
+								id="consultation-email"
+								name="consultation-email"
+								placeholder="E-mail"
+								required
+								autocomplete="email"
+								aria-required="true"
+								data-fls-input
+								data-fls-form-validatenow
+								data-fls-form-errtext="Введите email">
+						</div>
+						<button type="submit" class="consultation__button" aria-label="Оставить заявку">Оставить заявку</button>
+						<div class="consultation__success" aria-live="polite">
+							<span class="consultation__success-icon">✓</span>
+							<span class="consultation__success-text">Заявка отправлена</span>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Pricing Section -->
+	<section id="pricing" class="pricing" data-fls-watcher="navigator" data-fls-watcher-margin="0px">
+		<div class="pricing__container">
+			<h2 class="pricing__title" data-fls-splittype data-fls-gsap>Вы можете сразу выбрать пакет занятий</h2>
+			<p class="pricing__subtitle" data-fls-watcher data-fls-watcher-once>Онлайн группа продленного дня работает 5 дней в неделю, 4 часа в день</p>
+			<div class="pricing__grid">
+				<div class="pricing__card" data-fls-watcher data-fls-watcher-once>
+					<h3 class="pricing__card-title">1 неделя</h3>
+					<ul class="pricing__features">
+						<li class="pricing__feature">
+							<span class="pricing__feature-icon">✓</span>
+							<span class="pricing__feature-text">5 дней занятий</span>
+						</li>
+						<li class="pricing__feature">
+							<span class="pricing__feature-icon">✓</span>
+							<span class="pricing__feature-text">4 часа в день</span>
+						</li>
+						<li class="pricing__feature">
+							<span class="pricing__feature-icon">✓</span>
+							<span class="pricing__feature-text">Онлайн формат</span>
+						</li>
+					</ul>
+					<div class="pricing__price">5 000 руб.</div>
+					<div class="pricing__button-wrapper">
+						<button 
+							type="button" 
+							class="pricing__button" 
+							data-fls-popup-link="pricing-form"
+							data-service="1 неделя"
+							data-price="5000"
+							aria-label="Выбрать пакет 1 неделя">
+							Выбрать
+						</button>
+					</div>
+				</div>
+				<div class="pricing__card pricing__card--popular" data-fls-watcher data-fls-watcher-once>
+					<h3 class="pricing__card-title">2 недели</h3>
+					<ul class="pricing__features">
+						<li class="pricing__feature">
+							<span class="pricing__feature-icon">✓</span>
+							<span class="pricing__feature-text">10 дней занятий</span>
+						</li>
+						<li class="pricing__feature">
+							<span class="pricing__feature-icon">✓</span>
+							<span class="pricing__feature-text">4 часа в день</span>
+						</li>
+						<li class="pricing__feature">
+							<span class="pricing__feature-icon">✓</span>
+							<span class="pricing__feature-text">Онлайн формат</span>
+						</li>
+					</ul>
+					<div class="pricing__price">10 000 руб.</div>
+					<div class="pricing__button-wrapper">
+						<button 
+							type="button" 
+							class="pricing__button" 
+							data-fls-popup-link="pricing-form"
+							data-service="2 недели"
+							data-price="10000"
+							aria-label="Выбрать пакет 2 недели">
+							Выбрать
+						</button>
+					</div>
+				</div>
+				<div class="pricing__card" data-fls-watcher data-fls-watcher-once>
+					<h3 class="pricing__card-title">3 недели</h3>
+					<ul class="pricing__features">
+						<li class="pricing__feature">
+							<span class="pricing__feature-icon">✓</span>
+							<span class="pricing__feature-text">15 дней занятий</span>
+						</li>
+						<li class="pricing__feature">
+							<span class="pricing__feature-icon">✓</span>
+							<span class="pricing__feature-text">4 часа в день</span>
+						</li>
+						<li class="pricing__feature">
+							<span class="pricing__feature-icon">✓</span>
+							<span class="pricing__feature-text">Онлайн формат</span>
+						</li>
+					</ul>
+					<div class="pricing__price">15 000 руб.</div>
+					<div class="pricing__button-wrapper">
+						<button 
+							type="button" 
+							class="pricing__button" 
+							data-fls-popup-link="pricing-form"
+							data-service="3 недели"
+							data-price="15000"
+							aria-label="Выбрать пакет 3 недели">
+							Выбрать
+						</button>
+					</div>
+				</div>
+				<div class="pricing__card" data-fls-watcher data-fls-watcher-once>
+					<h3 class="pricing__card-title">4 недели</h3>
+					<ul class="pricing__features">
+						<li class="pricing__feature">
+							<span class="pricing__feature-icon">✓</span>
+							<span class="pricing__feature-text">20 дней занятий</span>
+						</li>
+						<li class="pricing__feature">
+							<span class="pricing__feature-icon">✓</span>
+							<span class="pricing__feature-text">4 часа в день</span>
+						</li>
+						<li class="pricing__feature">
+							<span class="pricing__feature-icon">✓</span>
+							<span class="pricing__feature-text">Онлайн формат</span>
+						</li>
+					</ul>
+					<div class="pricing__price">20 000 руб.</div>
+					<div class="pricing__button-wrapper">
+						<button 
+							type="button" 
+							class="pricing__button" 
+							data-fls-popup-link="pricing-form"
+							data-service="4 недели"
+							data-price="20000"
+							aria-label="Выбрать пакет 4 недели">
+							Выбрать
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Features Cards Section -->
+	<section class="features-cards" data-fls-watcher="navigator" data-fls-watcher-margin="0px">
+		<div class="features-cards__container">
+			<div class="features-cards__grid">
+				<div class="features-cards__card" data-fls-watcher data-fls-watcher-once>
+					<div class="features-cards__icon">
+
+					</div>
+					<h3 class="features-cards__title">Распорядок дня</h3>
+					<p class="features-cards__text">В онлайн группе продленного дня количество учащихся ограничено для обеспечения качественного обучения.</p>
+				</div>
+				<div class="features-cards__card" data-fls-watcher data-fls-watcher-once>
+					<div class="features-cards__icon">
+
+					</div>
+					<h3 class="features-cards__title">Количество детей</h3>
+					<p class="features-cards__text">В онлайн группе продленного дня количество учащихся ограничено для обеспечения качественного обучения.</p>
+				</div>
+				<div class="features-cards__card" data-fls-watcher data-fls-watcher-once>
+					<div class="features-cards__icon">
+
+					</div>
+					<h3 class="features-cards__title">Индивидуальность</h3>
+					<p class="features-cards__text">В онлайн группе продленного дня количество учащихся ограничено для обеспечения качественного обучения.</p>
+				</div>
+				<div class="features-cards__card" data-fls-watcher data-fls-watcher-once>
+					<div class="features-cards__icon">
+					</div>
+					<h3 class="features-cards__title">Распорядок дня</h3>
+					<p class="features-cards__text">В онлайн группе продленного дня количество учащихся ограничено для обеспечения качественного обучения.</p>
+				</div>
+				<div class="features-cards__card" data-fls-watcher data-fls-watcher-once>
+					<div class="features-cards__icon">
+
+					</div>
+					<h3 class="features-cards__title">Количество детей</h3>
+					<p class="features-cards__text">В онлайн группе продленного дня количество учащихся ограничено для обеспечения качественного обучения.</p>
+				</div>
+				<div class="features-cards__card" data-fls-watcher data-fls-watcher-once>
+					<div class="features-cards__icon">
+					</div>
+					<h3 class="features-cards__title">Индивидуальность</h3>
+					<p class="features-cards__text">В онлайн группе продленного дня количество учащихся ограничено для обеспечения качественного обучения.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Sign Up Form Section -->
+	<section id="contacts" class="signup-form" data-fls-watcher="navigator" data-fls-watcher-margin="0px">
+		<div class="signup-form__container">
+			<div class="signup-form__content">
+				<h2 class="signup-form__title" data-fls-splittype data-fls-gsap>
+					<span class="signup-form__title-line">Запишитесь в онлайн группу</span>
+					<span class="signup-form__title-line">продленного дня</span>
+				</h2>
+				<form class="signup-form__form" data-fls-form="dev" data-fls-form-cta="true" aria-label="Форма записи в онлайн группу продленного дня">
+					<div class="signup-form__form-item">
+						<label class="signup-form__label" for="signup-name">Введите имя</label>
+						<input
+							class="signup-form__input"
+							type="text"
+							id="signup-name"
+							name="signup-name"
+							placeholder="Введите имя"
+							required
+							autocomplete="name"
+							aria-required="true"
+							data-fls-input
+							data-fls-form-validatenow
+							data-fls-form-errtext="Введите ваше имя">
+					</div>
+					<div class="signup-form__form-item">
+						<label class="signup-form__label" for="signup-phone">Введите номер телефона</label>
+						<input
+							class="signup-form__input"
+							type="tel"
+							id="signup-phone"
+							name="signup-phone"
+							placeholder="+7 (___) ___-__-__"
+							required
+							autocomplete="tel"
+							aria-required="true"
+							data-fls-input
+							data-fls-input-mask="+7 (999) 999-99-99"
+							data-fls-form-validatenow
+							data-fls-form-errtext="Введите номер телефона">
+					</div>
+					<button type="submit" class="signup-form__button" aria-label="Отправить заявку на запись">Записаться сейчас</button>
+					<div class="signup-form__success" aria-live="polite">
+						<span class="signup-form__success-icon">✓</span>
+						<span class="signup-form__success-text">Заявка отправлена</span>
+					</div>
+					<p class="signup-form__note">Нажимая на кнопку, Вы принимаете <a href="#">Положение</a> и <a href="#">Согласие</a> на обработку персональных данных.</p>
+				</form>
+			</div>
+		</div>
+	</section>
+
+</main>
